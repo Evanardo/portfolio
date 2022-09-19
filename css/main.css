@@ -1,0 +1,121 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    background-image: url("../images/vector-night-dystopian-cityscape.jpeg");
+}
+
+
+nav li{
+    display: inline;
+    margin: 15px;
+}
+
+nav ul{
+    background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0)),url("../images/vector-night-dystopian-cityscape.jpeg");
+    margin: 0px;
+    border: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 35px
+}
+
+nav{
+    display: block;
+    color: whitesmoke;
+}
+
+nav{
+    color:goldenrod;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,.05)),url("../images/vector-night-dystopian-cityscape.jpeg");
+    height: 35%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color:sandybrown;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform:translate(-259%)
+}
+
+#main-articles{
+    width: 70%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#side{
+    width: 20%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+#profile-image{
+    width: 200px;
+    padding: 50px;
+    border: 5px solid black;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+
+#profile-details{
+    align-items: center;
+    margin-top: 50px;
+}
+main{
+    color: whitesmoke;
+}
+
+#profile-details a:hover{
+    color: white;
+}
+
+#sid-articles-1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#body{
+    border-radius: 10px;
+}
+
+#name{
+    border-radius: 10px;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer div{
+    color: whitesmoke;
+}
+
+main{
+    overflow: auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    border: 0px;
+}
